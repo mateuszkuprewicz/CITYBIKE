@@ -1,0 +1,3 @@
+Kwerendy do danych z CityBike: https://s3.amazonaws.com/tripdata/2023-citibike-tripdata.zip
+Należy pobrać rozpakować i dodać ścieżkę w ParsingData.cs (uznałem, że bez sensu jest dodawanie do csprojki by przy budowaniu kopiować 8gb danych do bin/)
+Dane pogodowe już znajdują się w repo.
