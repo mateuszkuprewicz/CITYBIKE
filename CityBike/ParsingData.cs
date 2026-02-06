@@ -9,8 +9,9 @@ namespace CityBike;
 
 public class ParsingData
 {
-    public const string WeatherData = "/home/matt/laby_P3/CityBike/CityBike/CSV/weather.csv";
-    public const string CityBikeData = "/home/matt/laby_P3/CityBike/CityBike/CSV/2023-citibike-tripdata";
+    //Podaj ścieżki do rozpakowanych plików
+    //public const string WeatherData = ".../CityBike/CSV/weather.csv";
+    //public const string CityBikeData = ".../CityBike/CSV/2023-citibike-tripdata";
 
     public static IEnumerable<WeatherDay> WeatherDays(string data = WeatherData)
     {
